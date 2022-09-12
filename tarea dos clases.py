@@ -1,4 +1,5 @@
 class Ave:
+#Creada por Aaron Cortez
     energiaMax = 0
     energia = 0
     especie = ''
@@ -71,6 +72,7 @@ print("\n")
 #carga de la segunda clase
 
 class Empleado:
+#Creada por Gustavo Godoy
     def __init__(self, nombre, depto, cargo, sueldo):
         self.nombre = nombre
         self.depto = depto
