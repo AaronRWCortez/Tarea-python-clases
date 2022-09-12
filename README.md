@@ -1,4 +1,4 @@
 # Tarea-python-clases
 Integrantes:
-Aaron Ramiro Waldemar CORTEZ
+Aaron Ramiro Waldemar CORTEZ,
 Gustavo Alberto GODOY
