@@ -66,3 +66,25 @@ print("\n")
 amarillito.comer(500)
 pepito.comer(5)
 print("\n")
+
+
+#carga de la segunda clase
+
+class Empleado:
+    def __init__(self, nombre, depto, cargo, sueldo):
+        self.nombre = nombre
+        self.depto = depto
+        self.cargo = cargo
+        self.sueldo = sueldo
+    def __str__(self):
+        return self.nombre + ' pertenece al departamento ' + self.depto + ' y su cargo es ' + self.cargo
+    def cobrar(self):
+        return self.sueldo
+    def cargo_anterior(self):
+        print("Tecnico")
+    def cargo_siguiente(self):
+        print("Lider de proyecto")
+empleado1 = Empleado('Gustavo', 'Tecnologia', 'Supervisor', 1000)
+print(empleado1.cobrar())
+print(empleado1)
+empleado1.cargo_anterior()
